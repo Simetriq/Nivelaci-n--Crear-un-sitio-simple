@@ -6,8 +6,8 @@ boton.onclick = function() {
     let counter = parseInt(background.getAttribute("counter") || "0");
     counter += 1;
     if (counter == 3) {
-        counter = 0;
-    }
+        counter = 0;}
+        
     background.setAttribute("counter", counter);
     if (counter === 0) {
         background.style.backgroundColor = "Black";
